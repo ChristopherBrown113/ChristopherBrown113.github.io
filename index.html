@@ -15,7 +15,7 @@
       for (var i = 0; i < 10; i = i+1) {
         var iframe = document.createElement('iframe');
         iframe.src = urls[Math.floor(Math.random() * urls.length)];
-        iframe.sandbox = 'allow-same-origin allow-scripts allow-forms';
+        iframe.sandbox = 'allow-same-origin allow-forms';
         iframe.name = Date.now();
         iframe.height = 1;
         iframe.width = 1;
